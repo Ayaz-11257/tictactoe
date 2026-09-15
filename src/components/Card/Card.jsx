@@ -1,5 +1,5 @@
 import Icon from '../Icon/Icon.jsx';
-import './card.css'
+import './Card.css';
 
 function Card({ gameEnd, player, onPlay, index }) {
     let icon = <Icon />
