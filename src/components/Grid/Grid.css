@@ -1,0 +1,15 @@
+.grid {
+    height: 500px;
+    width: 500px;
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+    grid-template-rows: repeat(3, 1fr); 
+}
+
+.turn-highlight {
+    color: white;
+}
